@@ -36,11 +36,19 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Describe what it means to be mobile first vs desktop first.
 
+Mobile first means designing for the smallest screen and working your way up to the biggest screen. This methodology can make it easier to make sure you have a mobile website that's as useful and full-features as the desktop site, since you have to deal with all the major size constraints from the start as opposed to them just being an after-thought.
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+This makes it easier to calculate the sizes of fonts when using rem units. The default font size is 16px. 62.5% of 16px is 10px. 1rem is therefore 10px, and it's pretty easy to calculate up or down when the base is 10.
 
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is a new syntax for writing CSS, than gets compiled to regular CSS. This syntax includes several features not available in regular CSS, that make it both easier to write CSS, easier to read and make several aspects of it just less work overall.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Nesting is my favorite so far, probably because it's the most logical and so immediately useful. Variables are probably a close second. I don't think of the other concepts give me trouble, they are just not as useful in the simple projects that I'm working on, but I can see their usefulness in more complex projects.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -110,13 +118,13 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [x]  Use at least 2 parameters to create your button
 
-* [ ] Create a hover state that swaps the background color and font color of the base button styles.
+* [x] Create a hover state that swaps the background color and font color of the base button styles.
 
 ### Mobile Design
 
-* [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
+* [x] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [x] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
 * [ ] Push your changes and create a pull request if you haven't already.
 
