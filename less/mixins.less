@@ -1,12 +1,17 @@
 // Mixins Here
 
-.button(@width: 100px, @padding: 10px 19px) {
+.button(@width: 100px, @padding: 9px 19px) {
     background-color: @btn-bg-color;
-    color: white;
+    color: @porcelain;
     font-size: 1.8em;
     width: @width;
     padding: @padding;
+    border: 1px solid @btn-bg-color;
     border-radius: 5px;
+    &:hover {
+        color: @btn-bg-color;
+        background-color: @porcelain
+    }
 }
 
 .flex-layout(@justify: center) {
