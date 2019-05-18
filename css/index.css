@@ -211,6 +211,15 @@ footer {
 }
 .home .intro h2 {
   padding: 15px;
+  animation: fly-off 1s ease-in;
+}
+@keyframes fly-off {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: 100%;
+  }
 }
 .home .intro p {
   padding: 0 15px;

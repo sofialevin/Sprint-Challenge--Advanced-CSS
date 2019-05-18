@@ -11,6 +11,11 @@
     }
     h2 {
       padding: 15px;
+      @keyframes fly-off {
+        0%   {margin-left:0;}
+        100%  {margin-left:100%;}
+    }
+        animation: fly-off 1s ease-in;
     }
 
     p {
