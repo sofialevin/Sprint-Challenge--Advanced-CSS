@@ -34,6 +34,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website uses separate layouts for the different screen sizes. A responsive website adjusts to whatever the screen size is.
+
 2. Describe what it means to be mobile first vs desktop first.
 
 Mobile first means designing for the smallest screen and working your way up to the biggest screen. This methodology can make it easier to make sure you have a mobile website that's as useful and full-features as the desktop site, since you have to deal with all the major size constraints from the start as opposed to them just being an after-thought.

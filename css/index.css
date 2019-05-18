@@ -172,7 +172,7 @@ p {
 }
 .nav h1 {
   color: #454A59;
-  font-size: 4em;
+  font-size: 4rem;
   margin: 10px;
 }
 .nav nav {
@@ -182,7 +182,7 @@ p {
   margin: 10px;
 }
 .nav nav a {
-  font-size: 1.6em;
+  font-size: 1.6rem;
   text-decoration: none;
   color: #23293B;
 }
@@ -282,7 +282,7 @@ footer {
 .home .walk .walk-text .btn {
   background-color: #22283A;
   color: #F6F7F8;
-  font-size: 1.8em;
+  font-size: 1.8rem;
   width: 100px;
   text-align: center;
   padding: 9px 0;
@@ -297,7 +297,7 @@ footer {
   .home .walk .walk-text .btn {
     background-color: #22283A;
     color: #F6F7F8;
-    font-size: 1.8em;
+    font-size: 1.8rem;
     width: 100%;
     text-align: center;
     padding: 25px 0;
