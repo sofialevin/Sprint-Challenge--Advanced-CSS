@@ -186,6 +186,11 @@ p {
   text-decoration: none;
   color: #23293B;
 }
+@media (max-width: 500px) {
+  .nav nav {
+    width: 82%;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
