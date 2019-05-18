@@ -2,11 +2,14 @@
 
 .nav {
     .basic-layout(1000px);
+    position: sticky;
+    top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: @nav-bg;
     border: 1px double @nav-border;
+    opacity: 0.85;
     h1 {
         color: @nav-font;
         font-size: 4rem;
