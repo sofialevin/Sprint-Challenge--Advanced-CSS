@@ -3,9 +3,19 @@
 .home {
 
   .intro {
-
+    img {
+      border-radius: 5px;
+      @media @phone {
+        height: 125px;
+      }
+    }
     h2 {
       padding: 15px;
+      @keyframes fly-off {
+        0%   {margin-left:0;}
+        100%  {margin-left:100%;}
+    }
+        animation: fly-off 1s ease-in;
     }
 
     p {
@@ -18,12 +28,24 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    @media @phone {
+      .sky {
+        display: none;
+      }
+      .launch {
+        display: none;
+      }
+    }
 
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+      @media @phone {
+        width: 100%;
+        margin: 20px 4.5%;
+      }
     }
   }
 
@@ -43,12 +65,20 @@
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
-    display: flex;
-    justify-content: center;
+    .flex-layout(center);
+    @media @phone {
+      margin-top: 20px;
+      flex-direction: column;
+      padding: 20px;
+    }
 
     .walk-text {
       width: 50%;
-
+      @media @phone {
+        width: 100%;
+        order: 1;
+        padding-top: 18px;
+      }
       h3 {
         margin-bottom: 10px;
       }
@@ -58,12 +88,21 @@
       }
 
       .btn {
+        .button();
+        @media @phone {
+          .button(100%, 25px 0);
+        }
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      @media @phone {
+        width: 100%;
+        order: 0;
+        margin: 0;
+      }
       
       img {
         width: 100%;
